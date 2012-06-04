@@ -1,0 +1,16 @@
+[
+    {
+        "caption": "Horizonal Split",
+        "command": "split_view",
+        "args": {
+            "vertical": false
+        }
+    },
+    {
+        "caption": "Vertical Split",
+        "command": "split_view",
+        "args": {
+            "vertical": true
+        }
+    }
+]
