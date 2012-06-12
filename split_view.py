@@ -6,7 +6,7 @@ class SplitView(sublime_plugin.TextCommand):
         window = self.view.window()
         group, index = window.get_view_index(self.view)
         layout = window.get_layout()
-        cell = layout["cells"][index]
+        # cell = layout["cells"][index]
         # TODO: more flexible/intelligent splitting
         if vertical:
             layout["cols"] = [0.0, 0.5, 1.0]
